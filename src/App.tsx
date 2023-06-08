@@ -6,6 +6,7 @@ import Header from './components/layout/Header';
 import Landing from './components/layout/Landing';
 import Login from './components/auth/Login';
 import Signup from './components/auth/Signup';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/login' Component={Login} />
         <Route path='/signup' Component={Signup} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
