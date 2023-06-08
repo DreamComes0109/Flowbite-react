@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact";
 
 const Landing = () => {
   return (
@@ -42,6 +43,7 @@ const Landing = () => {
           ></path>
         </svg>
       </div>
+      <Contact />
     </section>
   );
 };
