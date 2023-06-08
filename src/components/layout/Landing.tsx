@@ -1,4 +1,5 @@
 import React from "react";
+import Features from "./Features";
 import Contact from "./Contact";
 
 const Landing = () => {
@@ -35,7 +36,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="-mt-2.5 text-white dark:text-neutral-800 md:-mt-4 lg:-mt-6 xl:-mt-10 h-[50px] scale-[2] origin-[top_center]">
+      <div className="mb-40 -mt-2.5 text-white dark:text-neutral-800 md:-mt-4 lg:-mt-6 xl:-mt-10 h-[50px] scale-[2] origin-[top_center]">
         <svg viewBox="0 0 2880 48" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M 0 48 L 1437.5 48 L 2880 48 L 2880 0 L 2160 0 C 1453.324 60.118 726.013 4.51 720 0 L 0 0 L 0 48 Z"
@@ -43,6 +44,7 @@ const Landing = () => {
           ></path>
         </svg>
       </div>
+      <Features />
       <Contact />
     </section>
   );
