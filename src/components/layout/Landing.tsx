@@ -1,6 +1,7 @@
 import React from "react";
 import Features from "./Features";
 import Contact from "./Contact";
+import Content from "./Content";
 
 const Landing = () => {
   return (
@@ -45,6 +46,7 @@ const Landing = () => {
         </svg>
       </div>
       <Features />
+      <Content />
       <Contact />
     </section>
   );
