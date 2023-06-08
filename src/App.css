@@ -1,21 +1,17 @@
 .background-radial-gradient {
   background-color: hsl(218, 41%, 15%);
-  background-image: radial-gradient(
-      650px circle at 0% 0%,
+  background-image: radial-gradient(650px circle at 0% 0%,
       hsl(218, 41%, 35%) 15%,
       hsl(218, 41%, 30%) 35%,
       hsl(218, 41%, 20%) 75%,
       hsl(218, 41%, 19%) 80%,
-      transparent 100%
-    ),
-    radial-gradient(
-      1250px circle at 100% 100%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
       hsl(218, 41%, 45%) 15%,
       hsl(218, 41%, 30%) 35%,
       hsl(218, 41%, 20%) 75%,
       hsl(218, 41%, 19%) 80%,
-      transparent 100%
-    );
+      transparent 100%);
 }
 
 #radius-shape-1 {
@@ -35,10 +31,4 @@
   height: 300px;
   background: radial-gradient(#44006b, #ad1fff);
   overflow: hidden;
-}
-
-@media (min-width: 992px) {
-  .rotate-lg-6 {
-    transform: rotate(6deg);
-  }
 }
