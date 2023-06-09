@@ -1,7 +1,6 @@
 import React from "react";
-import Features from "./Features";
-import Contact from "./Contact";
-import Content from "./Content";
+import Features from "../home/Features";
+import Content from "../home/Content";
 import Testimonial from "../home/Testimonial";
 
 const Landing = () => {
@@ -49,7 +48,6 @@ const Landing = () => {
       <Features />
       <Content />
       <Testimonial />
-      <Contact />
     </section>
   );
 };
