@@ -9,7 +9,8 @@ import Signup from "./components/auth/Signup";
 import Footer from "./components/layout/Footer";
 import Article from "./components/article";
 import Newsletter from "./components/layout/Newsletter";
-import projects from "./components/projects/projects";
+import Projects from "./components/projects/projects";
+import Pricing from "./components/pricing/pricing";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         <Route path="/login" Component={Login} />
         <Route path="/signup" Component={Signup} />
         <Route path="/article" Component={Article} />
-        <Route path="/projects" Component={projects} />
+        <Route path="/projects" Component={Projects} />
+        <Route path="/pricing" Component={Pricing} />
       </Routes>
       <Newsletter />
       <Footer />
