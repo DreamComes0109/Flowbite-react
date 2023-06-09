@@ -2,6 +2,7 @@ import React from "react";
 import Features from "./Features";
 import Contact from "./Contact";
 import Content from "./Content";
+import Testimonial from "../home/Testimonial";
 
 const Landing = () => {
   return (
@@ -47,6 +48,7 @@ const Landing = () => {
       </div>
       <Features />
       <Content />
+      <Testimonial />
       <Contact />
     </section>
   );
