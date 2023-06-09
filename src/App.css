@@ -42,3 +42,7 @@
     transform: rotate(6deg);
   }
 }
+
+.zoom:hover img {
+  transform: scale(1.1);
+}
